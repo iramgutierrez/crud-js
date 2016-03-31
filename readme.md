@@ -17,10 +17,10 @@ npm start
 
 When the execution is finished, you should have available the following functional routes:
 
-| Route         | Method        | Uses  | Action |
-| ------------- |:-------------:| -----:| ------:|
-| /tests      | GET | API\TestController@index |Request all tests |
-| /tests      | POST | API\TestController@store | Store a test|
-| /tests/:id      | GET | API\TestController@show | Request a specific test |
-| /tests/:id      | PUT | API\TestController@update | Update a specific test |
-| /tests/:id      | DELETE | API\TestController@destroy | Delete a specific test |
+| Route         | Method        | Action |
+| ------------- |:-------------:| ------:|
+| /products      | GET  |Request all products |
+| /products      | POST  Store a test|
+| /products/:id      | GET  Request a specific products |
+| /products/:id      | PUT  Update a specific products |
+| /products/:id      | DELETE | Delete a specific products |
